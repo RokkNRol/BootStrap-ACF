@@ -1,0 +1,359 @@
+/*
+Theme Name: test
+Theme URI:  http: //Test.ur/
+Description: Тема для test
+Author:         Мое имя
+Version:        0.1.0
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	margin-top:1px !important;
+}
+header {
+	background: url(img/Mask_Group.jpg), linear-gradient(85.96deg, rgba(255, 255, 255, 0) 7.73%, rgba(255, 255, 255, 0.9) 55.76%);
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-blend-mode: overlay;
+	display: flex;
+	flex-direction: column;
+}
+
+
+.container-fluid {
+	width: 100%;
+	background: rgba(255, 255, 255, 0.9);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+nav {
+	max-width: 1440px;
+	height: 72px;
+	margin: auto;
+}
+
+.text-right {
+	max-width: 1440px;
+	margin: auto;
+
+}
+
+h1 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	text-transform: uppercase;
+	color: #2F80ED;
+	margin-bottom: 0;
+}
+
+.media {
+	align-items: center;
+}
+
+.media-body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #219653;
+}
+.media-body p {
+	margin-bottom:0rem !important;
+}
+
+.nav-link {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 17px;
+	text-transform: uppercase;
+	color: #2F80ED !important;
+	
+}
+
+.btn-outline-primary {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 17px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+	color: #2F80ED !important;
+	border: 1px solid #2F80ED !important;
+	box-sizing: border-box !important;
+	border-radius: 5px;
+}
+
+.btn-outline-primary:hover {
+	color: #fff !important;
+}
+
+.navbar {
+	padding: 0 !important;
+}
+
+.list-group-horizontal-xl {
+	background: #2F80ED !important;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	align-items: center;
+}
+
+.list-group-horizontal-xl li {
+	background: #2F80ED !important;
+	font-family: Karla;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+	
+}
+.list-group-horizontal-xl ul li {
+	list-style: none;
+	border-left: 2px solid #fff;
+	border-right: 2px solid #fff;
+}
+.list-group-horizontal-xl ul li a,
+.list-group-horizontal-xl li a{
+	text-decoration:none;
+	color: #FFFFFF;
+}
+.list-group-horizontal-xl ul li a:hover,
+.list-group-horizontal-xl li a:hover{
+	color: #000;
+}
+.list-group-item {
+	border: 0 !important;
+}
+header .title {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: flex-end;
+	max-width: 1440px;
+}
+.card-body a {
+	width: 210px;
+	height: 32px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.card-text {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: right;
+	text-transform: uppercase;
+	color: #2F80ED;
+}
+
+.title h5{
+	font-family: 'Lato', sans-serif;
+	font-size: 50px;
+	line-height: 55px;
+	text-align: right;
+	color: #000000;
+	margin-right: 0 !important;
+}
+
+.tabs-list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.tabs-list p {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	display: flex;
+	text-transform: uppercase;
+	color: #C4C4C4;
+	margin: 46px 0 11px;
+}
+
+.tabs-list h3 {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 36px;
+	display: flex;
+	color: #000000;
+}
+
+.tabs-list > i:before,
+.tabs-list > i:after {
+	content: "";
+	width: 50px;
+	height: 10px;
+	color: #2F80ED;
+	border: 1px solid red;
+	transform: rotate(45deg);
+}
+
+.tabs-list > i {
+	background-image: url(img/Star.png);
+	background-repeat: no-repeat;
+	width: 26px;
+	height: 26px;
+
+}
+
+#myTab {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+#myTab li {}
+
+#myTab li a {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 97px;
+	align-items: center;
+}
+
+#myTab li img {
+	width: 70px;
+	height: 70px;
+	margin-bottom: 37px;
+}
+
+.nav-tabs .nav-link {
+	border: none !important;
+	text-align: center;
+}
+
+/*.nav-tabs li {
+	padding: 0 146px;
+}*/
+
+.border-line {
+	border-left: 1px solid #2F80ED !important;
+	border-right: 1px solid #2F80ED !important;
+}
+
+.card-text-2 {
+	max-width: 417px;
+	font-size: 14px;
+	line-height: 14px;
+	color: #000000;
+}
+
+.nav-tabs {
+	/*border-bottom: none !important;*/
+}
+
+.tab-content {
+
+	background: #F6F6F6;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.card-body {
+	margin: auto;
+}
+
+.card-body button {
+	border: 1px solid #2F80ED;
+	box-sizing: border-box;
+	border-radius: 5px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: #2F80ED;
+}
+
+.card-title {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.no-gutters {
+	align-items: center;
+	justify-content: center;
+	padding: 47px 0;
+	z-index: -10;
+}
+
+#navbarNavDropdown {
+	justify-content: space-between;
+}
+
+.navbar-nav {
+	margin: auto;
+}
+@media (max-width: 1200px) {
+	.list-group-horizontal-xl ul li {
+		border-right: none;
+		border-left: none;
+		padding-top: 5px;
+	}
+	.border_line {
+		border-bottom: 2px solid #fff;
+border-top: 2px solid #fff;
+	/*padding-top: 10px;*/
+		padding-bottom: 10px;
+	}
+	
+@media (max-width: 960px) {
+	.card-body {
+		display: flex;
+flex-direction: column;
+align-items: center;
+	}
+}	
+}
+@media (max-width: 574px) {
+	.border-line  {
+		border-left: none !important;
+		border-right: none !important;
+		border-bottom: 1px solid #2F80ED !important;
+border-top: 1px solid #2F80ED !important;
+		
+	}
+	#myTab li a {
+		padding-bottom: 40px !important;
+		padding-top: 40px !important;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
