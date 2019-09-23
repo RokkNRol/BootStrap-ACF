@@ -14,7 +14,7 @@
 src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
 <![endif]-->
 <?php wp_head(); ?>
-	<link href="<?php bloginfo('template_directory'); ?>/style.css" rel="stylesheet">
+	
 </head>
 
 <body>
